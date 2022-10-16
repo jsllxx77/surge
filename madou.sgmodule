@@ -1,0 +1,9 @@
+#!name=麻豆社区
+#!desc=解锁VIP➕金币视频
+#!system=ios
+
+[Script]
+麻豆社区解锁全部视频 = type=http-request，script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/mdsqallcrack.js
+
+[MITM]
+hostname = ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com
