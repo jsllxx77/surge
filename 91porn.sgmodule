@@ -1,0 +1,9 @@
+#!name=91porn
+#!desc=解锁VIP观看高清下载搜索等限制,去除广告
+#!system=ios
+
+[Script]
+91porn = type=http-request,pattern=^https?:\/\/91porn\.com\/index\.php,requires-body=0,script-path=https://raw.githubusercontent.com/91p2022/91/main/91porn-vip.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% 91porn.com
